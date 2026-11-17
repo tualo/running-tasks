@@ -1,3 +1,5 @@
+DELIMITER ;
+
 CREATE TABLE IF NOT EXISTS sync_lock_file (
     id VARCHAR(36) PRIMARY KEY,
     started DATETIME NOT NULL,
